@@ -1,0 +1,51 @@
+import React from 'react'
+const columns = [
+    {
+        title:'订单号',
+        dataIndex:'ddh',
+    },
+    {
+        title:'下单时间',
+        dataIndex:'xdsj'
+    },
+    {
+        title:'用户名称',
+        dataIndex:'yhmc'
+    },
+    {
+        title:'手机号',
+        dataIndex:'sjh'
+    },
+    {
+        title:'产品类型',
+        dataIndex:'cplx'
+    },
+    {
+        title:'贷款金额(万元)',
+        dataIndex:'dkje'
+    },
+    {
+        title:'贷款期限',
+        dataIndex:'dkqx'
+    },
+    {
+        title:'贷款利率',
+        dataIndex:'dkll'
+    },
+    {
+        title:'订单状态',
+        dataIndex:'ddzt'
+    },
+    {
+        title:'客服',
+        dataIndex:'kf'
+    },
+    {
+        title:'操作',
+        dataIndex:'cz',
+        render:()=>{
+            return <i className="iconfont" style={{color: '#229FFF',fontSize:'35px'}}>&#xe619;</i>
+        }
+    }
+]
+export default columns;

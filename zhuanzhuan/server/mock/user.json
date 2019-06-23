@@ -1,0 +1,20 @@
+[
+    {
+        "id": 2,
+        "phone": "13412341234",
+        "password": "anere",
+        "facePhoto": "/facePhoto/img-1560857407418.png"
+    },
+    {
+        "id": 1,
+        "phone": "18701553442",
+        "password": "123456",
+        "facePhoto": "/facePhoto/img-1558409713619.png"
+    },
+    {
+        "id": 3,
+        "phone": "123",
+        "password": "123",
+        "facePhoto": "/facePhoto/img-1558409713619.png"
+    }
+]
